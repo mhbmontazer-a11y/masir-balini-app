@@ -1,0 +1,55 @@
+PACKAGE VALIDATION - MASIR BALINI
+================================
+
+schema_version=2
+subjects=3
+plan_days=81
+daily_reports=81
+study_units=180
+weekly_reports=12
+planned_minutes=19440
+planned_pages=2075
+planned_tests=1377
+unique_unit_codes=180
+
+WORKBOOK
+--------
+sheets=داشبورد, برنامه خرد, مرور تطبیقی, ممیزی و فرضیات, گزارش روزانه, گزارش هفتگی
+
+ASSETS
+------
+assets/seed/normalized_seed_v2.json: OK (669277 bytes)
+assets/seed/clinical_psychology_plan_1405_professional_final.xlsx: OK (204336 bytes)
+assets/branding/app_icon.png: OK (52791 bytes)
+assets/branding/app_icon_foreground.png: OK (8517 bytes)
+assets/ui/ui_reference.png: OK (1168697 bytes)
+assets/ui/ui_concept_alt.png: OK (1278532 bytes)
+
+SAMPLE BACKUP
+-------------
+integrity=ok
+plan_days=81
+study_units=180
+
+DART STATIC STRUCTURE
+---------------------
+lib/core/app_theme.dart: BALANCED
+lib/core/persian.dart: BALANCED
+lib/data/app_database.dart: BALANCED
+lib/domain/models.dart: BALANCED
+lib/main.dart: BALANCED
+lib/services/adaptive_review_service.dart: BALANCED
+lib/services/app_controller.dart: BALANCED
+lib/services/backup_service.dart: BALANCED
+lib/services/excel_export_service.dart: BALANCED
+lib/services/report_calculator.dart: BALANCED
+lib/ui/home_shell.dart: BALANCED
+
+dart_files=11
+test_files=3
+ui_screen_references=8
+
+IMPORTANT
+---------
+Flutter SDK and Android SDK were not available in the build environment.
+flutter analyze, flutter test, device run, and APK build must run on a configured development machine.

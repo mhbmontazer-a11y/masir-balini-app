@@ -1,0 +1,25 @@
+شروع از اینجا — مسیر بالینی
+===========================
+
+این پوشه شامل سورس کامل اپ، داده‌های فایل اکسل، طرح رابط کاربری، آیکون، تست‌ها و فایل‌های ساخت APK است.
+
+فقط این ترتیب را انجام بده:
+
+1) Git، Flutter و Android Studio را نصب کن.
+2) داخل Android Studio افزونه Flutter را نصب کن.
+3) فایل 01_PREPARE_PROJECT.bat را اجرا کن.
+4) گوشی را با USB Debugging وصل کن.
+5) فایل 02_RUN_ON_PHONE.bat را اجرا کن.
+6) بعد از تست، فایل 03_BUILD_APK.bat را اجرا کن.
+7) فایل APK داخل این مسیر ساخته می‌شود:
+   build\app\outputs\flutter-apk\app-release.apk
+
+اگر هر مرحله خطا داد، از پنجره خطا عکس بگیر یا متن خطا را کامل کپی کن.
+
+فایل‌های مهم:
+- assets\seed\clinical_psychology_plan_1405_professional_final.xlsx : فایل اکسل مبنا
+- assets\seed\normalized_seed_v2.json : داده‌های اولیه اپ
+- assets\ui\ui_reference.png : تصویر مرجع ظاهر اپ
+- UI_DESIGN_SPEC_FA.md : توضیح دقیق ظاهر و صفحات
+- PRODUCT_SPEC_FA.md : امکانات و منطق پروژه
+- PROJECT_STATUS.md : وضعیت واقعی بخش‌های پیاده‌سازی‌شده
